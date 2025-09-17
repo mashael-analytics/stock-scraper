@@ -19,6 +19,18 @@ This project is a Python-based web scraping tool designed to extract real-time s
   - `requests`
   - `beautifulsoup4`
 
+
+## Example Output
+Fetching stock data at 2025-09-17 21:30:02
+
+AAPL: $173.45 USD | Change: +2.13 (+1.24%)
+MSFT: $328.67 USD | Change: -1.01 (-0.31%)
+GOOGL: $139.22 USD | Change: +0.89 (+0.64%)
+TSLA: $258.10 USD | Change: +3.40 (+1.34%)
+AMZN: $134.95 USD | Change: -0.76 (-0.56%)
+
+Data saved to stock_data_20250917_213002.csv
+
     
 ## Features
 - Scrapes real-time stock prices and changes for multiple tickers.
@@ -34,15 +46,3 @@ This project is a Python-based web scraping tool designed to extract real-time s
 - **Educators:** Teach web scraping and automation.
 - **Developers:** Build on for financial apps.
 - **Investors:** Track portfolio stocks efficiently.
-
-
-## Example Output
-Fetching stock data at 2025-09-17 21:30:02
-
-AAPL: $173.45 USD | Change: +2.13 (+1.24%)
-MSFT: $328.67 USD | Change: -1.01 (-0.31%)
-GOOGL: $139.22 USD | Change: +0.89 (+0.64%)
-TSLA: $258.10 USD | Change: +3.40 (+1.34%)
-AMZN: $134.95 USD | Change: -0.76 (-0.56%)
-
-Data saved to stock_data_20250917_213002.csv
